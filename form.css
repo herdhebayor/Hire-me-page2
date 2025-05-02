@@ -1,0 +1,82 @@
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+label{
+    position: relative;
+}
+label::after{
+    position: absolute;
+    content: "*";
+    right: -10px;
+    top: -2px;
+    font-weight: 700;
+    color: rgba(241, 22, 22, 0.79);
+    border-radius: 50%;
+}
+.container{
+    width: 500px;
+}
+.mt-3{
+    float: right;
+}
+.back-btn{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.btn{
+    min-width: 120px;
+}
+.web-logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.call-out{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(1, 172, 81);
+    border-radius: 70% 50% 60% 50%;
+    z-index: 10;
+}
+.call-out::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent ;
+    border-top: 40px solid rgb(1, 172, 81);
+    border-top-right-radius: 50px;
+    bottom: -20px;
+    transform: rotate(34deg);
+    right: 6px;
+    z-index: -1;
+}
+@media screen and (max-width:800px) {
+    .back-btn{
+        position: relative;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .web-logo{
+        top: 10px;
+        left: 10px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .container{
+        width: 100%;
+    }
+    
+}

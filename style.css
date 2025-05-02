@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+nav{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.form,
+.career .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+             0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.call-out{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(1, 172, 81);
+    border-radius: 70% 50% 60% 50%;
+    z-index: 10;
+}
+.call-out::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent ;
+    border-top: 40px solid rgb(1, 172, 81);
+    border-top-right-radius: 50px;
+    bottom: -20px;
+    transform: rotate(34deg);
+    right: 6px;
+    z-index: -1;
+}
+.location{
+    position: relative;
+}
+.location-icon{
+    position: absolute;
+    right: 10px;
+    z-index: 100;
+}
+input:not(.email-input){
+    max-width: 90px;
+}
+input[type="search"]{
+    max-width: 150px;
+}
+
+.job-type{
+    position: relative;
+}
+.job-type::before{
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 50%;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.footer-nav h6::after{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 3px;
+    background-color: rgb(1, 172, 81);
+    margin-top: 5px;
+    border-radius: 2px;
+}
+.card{
+    cursor: pointer;
+    transition: .5s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.card:hover {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+             0 6px 20px 0 rgba(0, 0, 0, 0.19);
+             border: 1px solid rgb(1, 172, 81);
+}
+.bg-img{
+    background: url(./images/office5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg{
+    background-color:rgba(7, 179, 88, 0.9) ;
+    padding-block: 70px;
+}
+.logo,
+.logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.logo.p-1 img{
+    border: 3px solid rgb(247, 97, 122);
+    width: 27px;
+    height: 27px;
+}
+.input-group .btn{
+    height: 50px;
+    font-size: .7rem;
+}
+.img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 40px;
+}
+.curved{
+    position: absolute;
+    width: 33%;
+    left: 14.5%;
+}
+.rotate{
+    left:55%;
+    transform: rotateX(180deg);
+}
+.link:hover{
+    color: rgb(1, 172, 81);
+}

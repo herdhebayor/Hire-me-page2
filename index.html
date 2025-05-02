@@ -1,0 +1,580 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+			integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="styel.css" />
+		<title>Hire Me</title>
+	</head>
+	<body class="bg-light pt-5 text-dark">
+		<nav class="navbar navbar-expand-md fixed-top bg-light p-3 px-md-5 ">
+			<div class="container px-lg-5">
+				<div class="nav-brand  d-flex justify-centent-center gap-2 align-items-center">
+                        <a href="#" ><span class="h3 fst-italic">Hire</span></a>
+                        <div class="call-out text-light text-center px-1"><h3>me</h3></div> 
+				</div>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#jobs">Find job</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#talent">Find Talent</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#work">Find Work</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#how-to-work">How To Work</a>
+						</li>
+					</ul>
+					<div class="nav-btn mt-3 mt-md-0 text-center">
+						<button class="btn btn-ligth">
+							<a href="./log-in.html">Log In</a>
+						</button>
+						<button class="btn btn-success ms-2">
+							<a href="./sign-up.html">Sign Up</a>
+						</button>
+					</div>
+				</div>
+				
+			</div>
+		</nav>
+		<section class="py-5 p-3 p-lg-5" id="jobs">
+			<div class="container px-lg-5">
+				<div class="px-lg-5">
+					<div class="row  gap-5">
+						<div class="col-md mb-4 d-flex gap-5 justify-content-between flex-column">
+							<div>
+								<h1>We Help You Find Your <span class="text-success">Dream Job</span></h1>
+							</div>
+							<form action="">
+								<div
+									class="d-flex justify-content-between gap-1 p-3 bg-light rounded form"
+								>
+									<div
+										class="d-md-flex gap-1 justify-content-center align-items-center"
+									>
+										<label for="search"><i class="bi bi-search"></i></label>
+										<input
+											type="search"
+											name="search"
+											placeholder="job tittle or keyword"
+											id="search"
+											class="border-0 bg-light p-1"
+										/>
+									</div>
+									<div
+										class="d-md-flex gap-1 justify-content-center align-items-center location"
+									>
+										<label for="location"><i class="bi bi-geo-alt"></i></label>
+										<input
+											type="text"
+											name="location"
+											placeholder="location"
+											id="location"
+											class="border-0 bg-light p-1"
+										/>
+										<span class="location-icon"
+											><i class="bi bi-chevron-down"></i
+										></span>
+									</div>
+									<button type="submit" class="btn btn-success">Submit</button>
+								</div>
+							</form>
+						</div>
+						<div class="col-md mt-0  mt-md-3 text-center">
+							<img
+								src="./images/interview.jpg"
+								alt="image"
+								class="img-fluid"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-3 p-3" id="talent">
+			<div class="container px-lg-5">
+				<div class="px-lg-5">
+					<h2 class="text-center">Browse talent by category</h2>
+					<p class="text-center">
+						looking for work? Browse <span class="text-success">Jobs</span>
+					</p>
+					<div
+						class="row  row-cols-2 row-cols-lg-4 mt-3 g-3 gy-4 justify-content-center"
+					>
+						<div class="col">
+							<div class="p-3 p-md-5 card rounded text-center">
+								<p>Development & IT</p>
+								<p>2050 jobs</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="p-3 p-md-5 card rounded text-center">
+								<p>Design & creative</p>
+								<p>4099 jobs</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="p-3 p-md-5 card rounded text-center">
+								<p>Sales & Marketing</p>
+								<p>1920 jobs</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="p-3 p-md-5 card rounded text-center">
+								<p>Accounting & Finance</p>
+								<p>1315 jobs</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="p-3 p-md-5 card rounded text-center">
+								<p>Admin & Customer</p>
+								<p>2540 jobs</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="p-3 p-md-5 card rounded text-center">
+								<p>HUman Resources</p>
+								<p>1240 jobs</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="p-3 p-md-5 card rounded text-center">
+								<p>HUman Resources</p>
+								<p>1240 jobs</p>
+							</div>
+						</div>
+						<div class="col">
+							<div class="p-3 p-md-5 card rounded text-center">
+								<p>HUman Resources</p>
+								<p>1240 jobs</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-5 p-3 px-lg-5 position-reletaive mt-3">
+			<div class="container py-md-5 px-lg-5 ">
+                <div class="px-lg-5">
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="d-flex flex-column  gap-4">
+                                <img src="./images/office2.jpeg" alt="image" class="img-fluid w-100" />
+                                <div class="row row-cols-2">
+                                    <div class="col-8">
+                                        <img src="./images/office3.jpg" alt="image" class="img-fluid w-100" />
+                                    </div>
+                                    <div class="col-4 ps-0">
+                                        <img src="./images/office4.jpg" alt="image" class=" w-100 h-100" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md mt-3 mt-md-0">
+                            <h3>Our Service To Provide Your Career Grows</h3>
+                            <p>
+                                Web design hackathon accelerator bootstrapping, branding value
+                                preposition research & development.
+                            </p>
+                            <div class="card mb-2">
+                                <div class="card-body p-4">
+                                    <h3 class="card-title ">Recruiter Connection</h3>
+                                    <p>Founder ecosystem early adopters bootstrapping crowdsource.</p>
+                                </div>
+                            </div>
+                            <div class="card mb-2">
+                                <div class="card-body p-4">
+                                    <h3 class="card-title">Skill Training</h3>
+                                    <p>Founder ecosystem early adopters bootstrapping crowdsource.</p>
+                                </div>
+                            </div>
+                            <div class="card mb-2">
+                                <div class="card-body p-4">
+                                    <h3 class="card-title">Test & Interview</h3>
+                                    <p>Founder ecosystem early adopters bootstrapping crowdsource.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+			</div>
+		</section>
+
+		<section class="px-lg-5 p-3 py-3" id="work">
+			<div class="conrainer p-3 px-lg-5">
+				<div class="px-lg-5">
+					<div class="d-md-flex justify-content-between align-items-center">
+						<div>
+							<h1>Explore popular jobs</h1>
+							<p>
+								check our feature jobs from popular companies. Start applying
+							</p>
+						</div>
+					</div>
+					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-3">
+						<div class="cols">
+							<div class="card p-4 ">
+								<div class="card-items">
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<h5>
+											<span class="logo"><img src="./images/svg/slack-svgrepo-com.svg" alt="" class="img-fluid"></span>Slack
+										</h5>
+										<p>
+											<span><i class="bi bi-clock"></i></span> 1 day ago
+										</p>
+									</div>
+									<h5>DevOps Engineer</h5>
+									<p>we are looking for backend developer</p>
+									<div class="d-flex justify-content-between ">
+										<p>
+											<span><i class="bi bi-geo-alt"></i></span>Remote
+										</p>
+										<p class="job-type">Full time</p>
+									</div>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<p>
+											<bold>$13k-$15k</bold>
+										</p>
+										<button class="btn btn-success">Apply Now</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cols">
+							<div class="card p-4">
+								<div class="card-items">
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<h5>
+											<span class="logo"><img src="./images/svg/adobe-svgrepo-com.svg" alt="" class="img-fluid bg-light"></span>Adobe
+										</h5>
+										<p>
+											<span><i class="bi bi-clock"></i></span> 1 day ago
+										</p>
+									</div>
+									<h5>Software Engineer</h5>
+									<p>we are looking for backend developer</p>
+									<div class="d-flex justify-content-between">
+										<p>
+											<span><i class="bi bi-geo-alt"></i></span>Remote
+										</p>
+										<p class="job-type">Full time</p>
+									</div>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<p>
+											<bold>$15k-$18k</bold>
+										</p>
+										<button class="btn btn-success">Apply Now</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cols">
+							<div class="card p-4">
+								<div class="card-items">
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<h5>
+											<span class="logo"><img src="./images/svg/figma-svgrepo-com.svg" alt="" class="img-fluid bg-dark"></span>Figma
+										</h5>
+										<p>
+											<span><i class="bi bi-clock"></i></span> 1 day ago
+										</p>
+									</div>
+									<h5>Programming Developer</h5>
+									<p>we are looking for backend developer</p>
+									<div class="d-flex justify-content-between">
+										<p>
+											<span><i class="bi bi-geo-alt"></i></span>Remote
+										</p>
+										<p class="job-type">Full time</p>
+									</div>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<p>
+											<bold>$20k-$30k</bold>
+										</p>
+										<button class="btn btn-success">Apply Now</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cols">
+							<div class="card p-4">
+								<div class="card-items">
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<h5>
+											<span class="logo"><img src="./images/svg/linkedin-1-svgrepo-com.svg" alt="" class="img-fluid"></span>Linkedin
+										</h5>
+										<p>
+											<span><i class="bi bi-clock"></i></span> 1 day ago
+										</p>
+									</div>
+									<h5>Graphic Designer</h5>
+									<p>we are looking for backend developer</p>
+									<div class="d-flex justify-content-between">
+										<p>
+											<span><i class="bi bi-geo-alt"></i></span>Remote
+										</p>
+										<p class="job-type">Full time</p>
+									</div>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<p>
+											<bold>$13k-$15k</bold>
+										</p>
+										<button class="btn btn-success">Apply Now</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cols">
+							<div class="card p-4">
+								<div class="card-items">
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<h5>
+											<span class="logo"><img src="./images/svg/behance-svgrepo-com.svg" alt="" class="img-fluid"></span>Behance
+										</h5>
+										<p>
+											<span><i class="bi bi-clock"></i></span> 1 day ago
+										</p>
+									</div>
+									<h5>Brand Designer</h5>
+									<p>we are looking for backend developer</p>
+									<div class="d-flex justify-content-between">
+										<p>
+											<span><i class="bi bi-geo-alt"></i></span>Remote
+										</p>
+										<p class="job-type">Full time</p>
+									</div>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<p>
+											<bold>$14k-$16k</bold>
+										</p>
+										<button class="btn btn-success">Apply Now</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cols">
+							<div class="card p-4  ">
+								<div class="card-items">
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<h5>
+											<span class="logo p-1"><img src="./images/svg/dribbble-dribble-dribbbble-svgrepo-com.svg" alt="" class="img-fluid"></span>Dribble
+										</h5>
+										<p>
+											<span><i class="bi bi-clock"></i></span> 1 day ago
+										</p>
+									</div>
+									<h5>UI/UX Designer</h5>
+									<p>we are looking for backend developer</p>
+									<div class="d-flex justify-content-between">
+										<p>
+											<span><i class="bi bi-geo-alt"></i></span>Remote
+										</p>
+										<p class="job-type">Full time</p>
+									</div>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									>
+										<p>
+											<bold>$16k-$18k</bold>
+										</p>
+										<button class="btn btn-success">Apply Now</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-3 p-3 px-lg-5 career" id="how-to-work">
+			<div class="container p-3 px-lg-5">
+				<div class="px-lg-5">
+					<h1 class="text-center mb-5">Find your next job in 3 easy steps</h1>
+					<div class="row row-cols-md-6  justify-content-between position-relative">
+						<div class="col text-center">
+                            <img src="./images/profile-removebg-preview.png" alt="image" class="img-fluid img" />
+                            <p class="mb-1" >step 1</p>
+                            <a href="" class="link">Register an Account</a>
+                        </div>
+                        <img src="./images/curved.png" alt="" class="d-none d-md-block curved rotate">
+                        <div class="col text-center">
+                            <img src="./images/magnifyer-removebg-preview.png" alt="image" class="img-fluid img">
+                            <p class="mb-1">step 2</p>
+                            <a href="#" class="link" >Find your job</a>
+                        </div>
+                        <img src="./images/curved.png" alt="" class="d-none d-md-block curved ">
+                        <div class="col text-center">
+                            <img src="./images/document-removebg-preview.png" alt="image" class="img-fluid img">
+                            <p class="mb-1">step 3</p>
+                            <a href="#" class="link">Apply for job</a>
+                        </div>
+						
+						
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-3 p-3 p-lg-5">
+			<div class="container p-3 px-lg-5">
+				<div class="px-lg-5">
+					<div class="bg-img rounded-4">
+                        <div class="bg px-3   rounded-4">
+                            <h3 class="text-center text-light mb-5">Get Exclusive Update</h3>
+					
+                        <div class="input-group row  mt-4 justify-content-center">
+                            <div class="col-6 col-md-4 ">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    placeholder="Enter your email address"
+                                    class="p-3 border-0 w-100 rounded email-input"
+                                />
+                            </div>
+                            <div class="col-2  align-items-center d-md-flex">
+                                <button class="btn btn-light text-success px-md-4 ">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="py-3 p-3 px-lg-5 bg-dark-subtle ">
+			<div class="container p-3 px-lg-5">
+				<div class="px-lg-5">
+                    <div class="row gap-5">
+                        <div class="col-md">
+                            <div class="fst-italic d-flex  align-items-center gap-2">
+                                <a href="#" ><span class="h3 fst-italic">Hire</span></a>
+                                <div class="call-out text-light text-center"><h3>me</h3></div>
+				            </div>
+                            <p class="mt-3">
+                                Hire me is the first and leading career management site
+                                in the country. young business and it professional tacked by 
+                                strong command over a business
+                            </p>
+							<div class="d-flex gap-3">
+                                <a href="#"><span><i class="bi bi-instagram text-success fs-5 "></i></span></a>
+								<a href="#"><span><i class="bi bi-facebook text-success fs-5 "></i></span></a>
+                                <a href="#"><span><i class="bi bi-twitter text-success fs-5"></i></span></a>
+								<a href="#"><span><i class="bi bi-linkedin text-success fs-5 "></i></span></a>
+							</div>
+						</div>
+                    
+                        <div class="col-md-8">
+                            <div class="row row-cols-md-4 row-cols-2 g-3 footer-nav">
+                                <div class="col">
+                                    <h6 class="mb-3 position-relative">Company</h6>
+                                    <ul class="list-group">
+                                        <li><a href="#">Our Team</a></li>
+                                        <li><a href="#">Terms & Condition</a></li>
+                                        <li><a href="#">Partner with us</a></li>
+                                        <li><a href="#">FAQ</a></l>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <h6 class="mb-3 position-relative">About</h6>
+                                    <ul class="list-group">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <h6 class="mb-3 position-relative">Job Seekers</h6>
+                                    <ul class="list-group">
+                                        <li><a href="#">Create Account</a></li>
+                                        <li><a href="#">My jobs panel</a></li>
+                                        <li><a href="#">Consultation</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <h6 class="mb-3 position-relative">Employee</h6>
+                                    <ul class="list-group">
+                                        <li><a href="#">Create Account</a></li>
+                                        <li><a href="#">Product/Service</a></li>
+                                        <li><a href=""></a>Post a job</li>
+                                        <li><a href="#">FAQ</a></li>
+                                    </ul>
+                                </div>	
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+					<p class="text-center mt-3">Copyright of Adebayo Sikiru Temitope &copy;2025</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
