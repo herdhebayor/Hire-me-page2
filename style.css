@@ -133,3 +133,9 @@ input[type="search"]{
 .link:hover{
     color: rgb(1, 172, 81);
 }
+@media screen and (max-width: 768px){
+    .bg{
+        padding-block: 50px;
+    }
+    
+}
